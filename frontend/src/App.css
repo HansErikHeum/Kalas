@@ -1,0 +1,212 @@
+/* Bruker hovedsaklig farger valgt av produkteier.*/
+.App {
+  text-align: center;
+  background-color: #fff6ed;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: #1d3341;
+  color: white;
+}
+
+.Navigation-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.form-link,
+.header-link {
+  text-align: center;
+  width: 100%;
+  color: #fff6ed;
+  font-weight: lighter;
+  font-family: "Raleway", sans-serif;
+}
+.header-link2 {
+  text-align: center;
+  width: 100%;
+  color: #1d3341;
+  font-weight: lighter;
+  font-family: "Raleway", sans-serif;
+}
+
+.loggedInWrapper {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d3341;
+}
+
+.form-wrapper {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px #000000;
+  background-color: #fff6ed;
+}
+
+.loggedin-form-wrapper {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px #000000;
+  background-color: #fff6ed;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  color: #000000;
+  font-weight: lighter;
+  font-family: "Raleway", sans-serif;
+}
+
+label {
+  font-size: 0.8em;
+  margin-bottom: 0.25em;
+  color: #000000;
+  font-weight: lighter;
+  font-family: "Raleway", sans-serif;
+}
+
+.label_input {
+  font-size: 0.8em;
+  margin-top: 0.25em;
+  color: #000000;
+  font-weight: lighter;
+  font-family: "Raleway", sans-serif;
+  float: left;
+  clear: left;
+  width: 100px;
+  text-align: left;
+}
+
+input {
+  padding: 10px 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+  display: inline-block;
+}
+
+.feedbackMessage::before {
+  white-space: pre-line;
+}
+
+.feedbackMessage {
+  text-align: center;
+  margin-bottom: 0.5em;
+  color: #e53030;
+  font-size: 0.75em;
+  display: relative;
+  font-family: "Raleway", sans-serif;
+}
+
+input.error {
+  border: 1px solid #e53030;
+}
+
+.errorMessage {
+  color: #e53030;
+  font-size: 0.6em;
+  display: relative;
+  font-family: "Raleway", sans-serif;
+}
+
+.submitData {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submitData button {
+  background-color: #29dccb;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 100%;
+  margin-top: 1em;
+  padding: 8px 0px;
+  font-size: 1em;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-bottom: 0.25em;
+}
+
+.submitData button:hover {
+  color: #29dccb;
+  background-color: #fff;
+  border: 2px solid #29dccb;
+}
+
+.submitData small {
+  color: #999;
+  font-weight: lighter;
+}
+
+.borstWrapper {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.borstTekst {
+  text-align: center;
+  margin-bottom: 5em;
+  color: #fff6ed;
+  font-size: 3em;
+  display: relative;
+  font-family: "Raleway", sans-serif;
+}
+.borstButton {
+  background-color: transparent;
+  border-radius: 22px;
+  border: 2px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  padding: 17px 31px;
+  text-decoration: none;
+  text-shadow: 3px 7px 4px #ffffff;
+}
+.borstButton:hover {
+  background-color: transparent;
+}
+.borstButton:active {
+  position: relative;
+  top: 1px;
+}
