@@ -14,7 +14,7 @@ import {
 import Geocode from "react-geocode";
 
 // API-nøkkel for bruk av Google Maps
-Geocode.setApiKey("AIzaSyD-LS470NBBaQUKfNpdCQQvwLPGPMu_ZJE");
+Geocode.setApiKey("Denne må du finne selv");
 
 const WrappedMap = withScriptjs(withGoogleMap(Map));
 
@@ -25,7 +25,7 @@ const database_url_names = "//localhost:8000/api/names/";
 
 // Beskriver hvordan kartet skal se ut
 function Map() {
-  Geocode.setApiKey("AIzaSyD-LS470NBBaQUKfNpdCQQvwLPGPMu_ZJE");
+  Geocode.setApiKey("Denne må du finne selv");
   Geocode.enableDebug();
   const [selectedKalas, setSelectedKalas] = useState(null);
   const [data, setData] = useState({ hits: [] });
@@ -248,7 +248,7 @@ class MapClass extends Component {
       <div style={{ width: "100vw", heigth: "100vh" }}>
         <WrappedMap
           googleMapURL={
-            "https://maps.googleapis.com/maps/api/js?key=AIzaSyD-LS470NBBaQUKfNpdCQQvwLPGPMu_ZJE&v=3.exp&libraries=geometry,drawing,places"
+            "https://maps.googleapis.com/maps/api/js?key=(her må du sette nøkkelen).exp&libraries=geometry,drawing,places"
           }
           loadingElement={<div style={{ height: `100%` }} />}
           containerElement={<div style={{ height: `70vh` }} />}
